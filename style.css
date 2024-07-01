@@ -1,0 +1,147 @@
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+.info {
+    display: flex;
+}
+.info-txt {
+    color: #86898f;
+    padding: 15px;
+    padding-top: 30px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.avatar  {
+    width: 200px;
+    height: 200px;
+    border-radius: 28px;
+    padding: 10px;
+}
+.media {
+    font-style: normal;
+}
+.media a {
+    color: #86898f;
+    text-decoration: none;
+}
+.media h3 {
+    color: black;
+}
+.media a:active {
+color:blue;
+}
+.hobbie {
+    background: #e5ffe7;
+    border-radius: 20px ;
+    height:200px ;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.hobbie li {
+    margin-bottom: 10px;
+    color: #86898f;
+}
+.hobbie h2 {
+    padding-left: 10px;
+}
+.work {
+    background: #ffe5e5;
+    border-radius: 20px ;
+    height:210px ;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.table {
+    width: 100%;
+  }
+  
+.table td {
+    padding-bottom: 10px;
+  }
+  
+  .table td:nth-child(2),
+  .table td:nth-child(3) {
+    color: #86898f;
+  } 
+.courses {
+    background: #fff9dc;
+    border-radius: 20px ;
+    height:150px ;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 20px;    
+    display: block;
+
+}
+.link-list  {
+    border-bottom: 1px solid #b1b1b1 ;
+}
+.link-listt  {
+    border-bottom: 1px solid #b1b1b1 ;
+}
+.courses a {
+    color: #86898f;
+    text-decoration: none;
+    font-size: 18px;
+    width: 100%;
+}
+.courses h2 {
+    font-size:25px;
+}
+.form h2 {
+    text-align: center;
+}
+.form-group label{
+display: block;
+color: #86898f;
+font-size: 14px;
+}
+.form-r {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+}
+.form-r .form-group {
+    margin-right: 20px;
+    width: calc(50%-30px);
+}
+.form-r .form-group:last-child {
+    margin-right: 0 ;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    color: black;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom:1px solid #ccc ;
+    font-family: inherit;
+    background: transparent;
+    padding: 15px 0 10px;
+}
+a:hover {
+    text-decoration: underline;
+}
+a {
+    color: black;
+}
+a:visited {
+    color: #86898f;
+}
+@media (max-width:760px)
+{
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+@media (max-width:760px) {
+    .form-r {
+        display: block;
+    }
+}
